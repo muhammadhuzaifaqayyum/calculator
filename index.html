@@ -7,42 +7,48 @@
     <title>Calculate me! - A calculator made my me</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link href="utils.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
+<body class="bg-gradient-to-r from-indigo-500">
     <div class="container flex flex-col items-center mx-auto m-w-20">
+        <div class="row">
+            <h1 class="text-[42px] ">
+                Calculator
+            </h1>
+        </div>
         <div class="row">
             <input class="input" type="text" />
         </div>
         <div class="row">
-            <button class="button">C</button>
-            <button class="button">%</button>
-            <button class="button">M+</button>
-            <button class="button">M-</button>
+            <button class="button hover:font-bold">C</button>
+            <button class="button hover:font-bold">%</button>
+            <button class="button hover:font-bold">M+</button>
+            <button class="button hover:font-bold">M-</button>
         </div>
         <div class="row">
-            <button class="button">7</button>
-            <button class="button">8</button>
-            <button class="button">9</button>
-            <button class="button">*</button>
+            <button class="button hover:font-bold">7</button>
+            <button class="button hover:font-bold">8</button>
+            <button class="button hover:font-bold">9</button>
+            <button class="button hover:font-bold">*</button>
         </div>
         <div class="row">
-            <button class="button">4</button>
-            <button class="button">5</button>
-            <button class="button">6</button>
-            <button class="button">/</button>
+            <button class="button hover:font-bold">4</button>
+            <button class="button hover:font-bold">5</button>
+            <button class="button hover:font-bold">6</button>
+            <button class="button hover:font-bold">/</button>
         </div>
         <div class="row">
-            <button class="button">1</button>
-            <button class="button">2</button>
-            <button class="button">3</button>
-            <button class="button">+</button>
+            <button class="button hover:font-bold">1</button>
+            <button class="button hover:font-bold">2</button>
+            <button class="button hover:font-bold">3</button>
+            <button class="button hover:font-bold">+</button>
         </div>
         <div class="row">
-            <button class="button">0</button>
-            <button class="button">.</button>
-            <button class="button">=</button>
-            <button class="button">-</button>
+            <button class="button hover:font-bold">0</button>
+            <button class="button hover:font-bold">.</button>
+            <button class="button hover:font-bold">=</button>
+            <button class="button hover:font-bold">-</button>
         </div>
     </div>
     <script src="app.js"></script>
